@@ -44,5 +44,6 @@ Target variable:
 
 
 $env:FLASK_APP = "application.py"
+$env:FLASK_ENV = "development"
 $env:FLASK_DEBUG = "1"  # or "true"
 python -m flask run
